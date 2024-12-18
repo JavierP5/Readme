@@ -1,7 +1,11 @@
 ## Método 2
-1. Clonar el repositorio
-2. Cambiar al directorio del repositorio clonado
-3. Crear un nuevo repositorio en tu cuenta de GitHub 
-4. Enlaza el repositorio local a tu nuevo repositorio remoto en GitHub
-5. Sube los cambios al nuevo repositorio remoto
-6. Edita el archivo Readme.md para explicar el proceso realizado y sube los cambios
+Este método consiste en clonar un repositorio existente, crear un repositorio propio en GitHub y enlazarlos.  
+A continuación, se detallan los pasos realizados:  
+
+1. Clonar el repositorio original con `git clone`.  
+2. Cambiar al directorio del repositorio clonado.  
+3. Crear un repositorio nuevo en GitHub (repo_metodo2).  
+4. Enlazar el repositorio local con el repositorio remoto propio usando `git remote add origin`.  
+5. Subir los cambios al nuevo repositorio remoto con `git push`.  
+6. Editar el archivo README.md para documentar el proceso realizado.  
+7. Subir nuevamente los cambios actualizados con `git push`.  
